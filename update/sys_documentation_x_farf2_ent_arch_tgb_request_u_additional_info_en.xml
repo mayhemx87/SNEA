@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_additional_info" label="Additional Information" language="en" table="x_farf2_ent_arch_tgb_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_additional_info</element>
+            <help/>
+            <hint/>
+            <label>Additional Information</label>
+            <language>en</language>
+            <name>x_farf2_ent_arch_tgb_request</name>
+            <plural>Additional Informations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-06-21 20:07:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1765059213fe17408e9c7e276144b013</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Additional Information</sys_name>
+            <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+            <sys_update_name>sys_documentation_x_farf2_ent_arch_tgb_request_u_additional_info_en</sys_update_name>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-06-21 20:07:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

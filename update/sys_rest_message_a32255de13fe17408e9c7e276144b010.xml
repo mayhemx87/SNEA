@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="HPMPS (ServiceFirst)">ec63566313f503000fddb6d96144b088</basic_auth_profile>
+        <basic_auth_user/>
+        <description>This will create a card on the Enterprise Architecture Kanban board in our on premise Team Foundation Server.</description>
+        <name>POST to TFS</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>.</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-06-21 21:03:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a32255de13fe17408e9c7e276144b010</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>POST to TFS</sys_name>
+        <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+        <sys_update_name>sys_rest_message_a32255de13fe17408e9c7e276144b010</sys_update_name>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-06-29 22:23:47</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

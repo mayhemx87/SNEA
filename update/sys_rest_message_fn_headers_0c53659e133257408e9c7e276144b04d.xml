@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
+        <name>Content-Type</name>
+        <rest_message_function display_value="POST to TFS">1842d19e13fe17408e9c7e276144b0af</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-06-21 22:20:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0c53659e133257408e9c7e276144b04d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_0c53659e133257408e9c7e276144b04d</sys_update_name>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-06-21 22:20:34</sys_updated_on>
+        <value>application/json-patch+json</value>
+    </sys_rest_message_fn_headers>
+</record_update>

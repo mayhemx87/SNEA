@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Technology Radar" max_length="40" name="x_farf2_ent_arch_technology_radar" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" mandatory="true" max_length="40" name="u_classification" type="string">
+            <choice>
+                <element label="Adopt" sequence="0" value="Adopt"/>
+                <element label="Assess" sequence="2" value="Assess"/>
+                <element label="Hold" sequence="3" value="Hold"/>
+                <element label="Trial" sequence="1" value="Trial"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Links" max_length="1000" name="u_links" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="u_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sector" mandatory="true" max_length="40" name="u_sector" type="string">
+            <choice>
+                <element label="Frameworks" sequence="0" value="Frameworks"/>
+                <element label="Platforms" sequence="1" value="Platforms"/>
+                <element label="Testing" sequence="2" value="Testing"/>
+                <element label="Toolkits/Libraries/Language" sequence="3" value="Toolkits/Libraries/Language"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Technology" mandatory="true" max_length="100" name="u_technology" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Version" mandatory="true" max_length="40" name="u_version" type="string"/>
+    </element>
+</database>

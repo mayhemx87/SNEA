@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_new_technology" table="x_farf2_ent_arch_tgb_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_new_technology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_farf2_ent_arch_tgb_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-06-21 20:07:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bf65059213fe17408e9c7e276144b063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-06-21 20:07:21</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_new_technology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_farf2_ent_arch_tgb_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-06-21 20:07:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ff65059213fe17408e9c7e276144b064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-06-21 20:07:21</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_new_technology</element>
+            <name>x_farf2_ent_arch_tgb_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-06-21 20:07:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a7354d64dbc3d700b9877b1cbf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_new_technology</sys_name>
+            <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+            <sys_update_name>sys_choice_x_farf2_ent_arch_tgb_request_u_new_technology</sys_update_name>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-06-21 20:07:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

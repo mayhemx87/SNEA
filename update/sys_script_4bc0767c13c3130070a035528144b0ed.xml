@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_farf2_ent_arch_tgb_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_farf2_ent_arch_tgb_request">u_state=New^EQ<item endquery="false" field="u_state" goto="false" newquery="false" operator="=" or="false" value="New"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>POST to TFS</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	try {
+		//add code here to read the endpoint and token from the app properties and do the base64 encode with the : in front of it
+		//var s = new what object has the app properties?
+		
+		var r = new sn_ws.RESTMessageV2('x_farf2_ent_arch.POST to TFS', 'POST to TFS');
+		var endpoint = gs.getProperty('x_farf2_ent_arch.TFSEndpoint');
+		var tfsToken = ':' + gs.getProperty('x_farf2_ent_arch.TFSToken');
+		var encodedString = '';
+		
+		//gs.info('tfsToken: ' + tfsToken);
+		
+		encodedString = gs.base64Encode(tfsToken);
+		//gs.info('Encoded String: ' + encodedString);
+		
+		r.setStringParameterNoEscape('endpoint', endpoint);
+		r.setStringParameterNoEscape('u_title', current.u_title);
+		r.setRequestHeader('Authorization', 'Basic ' + encodedString);
+		
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		var str =  JSON.parse(responseBody);
+		
+		//gs.info('TFSID: ' + str.id);
+		
+		current.setValue('u_state', 'Submitted');
+		current.setValue('u_tfsid', str.id);
+		current.update();
+		//gs.info('Submitted Work Item: ' + str.id);
+	}
+	catch(ex) {
+		var message = ex.getMessage();
+		gs.error('ERROR: ' + message);
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-06-29 22:22:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4bc0767c13c3130070a035528144b0ed</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>POST to TFS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+        <sys_update_name>sys_script_4bc0767c13c3130070a035528144b0ed</sys_update_name>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-07-03 20:13:29</sys_updated_on>
+        <template>u_state=Submitted^EQ</template>
+        <when>async</when>
+    </sys_script>
+</record_update>

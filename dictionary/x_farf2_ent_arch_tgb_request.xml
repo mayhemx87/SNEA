@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="TGB Request" max_length="40" name="x_farf2_ent_arch_tgb_request" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Information" max_length="1000" name="u_additional_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Justification" max_length="1000" name="u_bus_justification" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" hint="Who will be the contact(s) for this review?" label="Contacts" mandatory="true" max_length="1024" name="u_contacts" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Existing Alternatives" max_length="1000" name="u_existing_alternatives" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Please summarize the elements of the architecture that are new or different from current standards." label="New Architecture Elements" max_length="1000" name="u_new_arch_elements" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Technology" max_length="40" name="u_new_technology" type="string">
+            <choice>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Yes" sequence="0" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" hint="Please provide a brief overview of the Application or New technology." label="Request Overview" mandatory="true" max_length="1000" name="u_overview" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="New" label="State" max_length="40" name="u_state" read_only="true" type="string">
+            <choice>
+                <element label="New" sequence="0" value="New"/>
+                <element label="Submitted" sequence="1" value="Submitted"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Technology Description" max_length="100" name="u_technology_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TFSID" max_length="100" name="u_tfsid" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Please provide the application name or technology to review." label="Title" mandatory="true" max_length="100" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Is this request for New Technology or Application Architecture?" label="Request Type" mandatory="true" max_length="40" name="u_type" type="string">
+            <choice>
+                <element label="Application Architecture" sequence="0" value="Application Architecture"/>
+                <element label="New Technology" sequence="1" value="New Technology"/>
+            </choice>
+        </element>
+    </element>
+</database>

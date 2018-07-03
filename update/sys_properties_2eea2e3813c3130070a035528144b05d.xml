@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Personal access token. Generated from TFS. Valid up to 1 year. Must renew each year.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_farf2_ent_arch.TFSToken</name>
+        <read_roles>x_farf2_ent_arch.admin</read_roles>
+        <suffix>TFSToken</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-06-29 21:56:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2eea2e3813c3130070a035528144b05d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_farf2_ent_arch.TFSToken</sys_name>
+        <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+        <sys_update_name>sys_properties_2eea2e3813c3130070a035528144b05d</sys_update_name>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-06-29 21:57:54</sys_updated_on>
+        <type>string</type>
+        <value>d5zebfq4ffujrqub7pydcfpjqx4vezjgnwuu42claqsaakyidghq</value>
+        <write_roles>x_farf2_ent_arch.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=2eea2e3813c3130070a035528144b05d"/>
+</record_update>

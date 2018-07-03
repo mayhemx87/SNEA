@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>TFS Endpoint</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_farf2_ent_arch.TFSEndpoint</name>
+        <read_roles>x_farf2_ent_arch.admin</read_roles>
+        <suffix>TFSEndpoint</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-06-28 19:02:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cb9938e8db83d700b9877b1cbf9619d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_farf2_ent_arch.TFSEndpoint</sys_name>
+        <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+        <sys_update_name>sys_properties_cb9938e8db83d700b9877b1cbf9619d4</sys_update_name>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-06-29 22:08:44</sys_updated_on>
+        <type>string</type>
+        <value>http://tfstest.corp.firstam.com:8080/tfs/DefaultCollection/AT_EnterpriseArchitecture/_apis/wit/workitems/$Feature?api-version=3.0</value>
+        <write_roles>x_farf2_ent_arch.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb9938e8db83d700b9877b1cbf9619d4"/>
+</record_update>

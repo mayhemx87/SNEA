@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="f693851213fe17408e9c7e276144b01b" sys_domain="global" table="x_farf2_ent_arch_tgb_request" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>bd19f6cadb8f530032077d8bbf96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <text>Please attach any relevant diagrams, drawings or additional information using the paper clip icon above.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bd19f6cadb8f530032077d8bbf96191d</element>
+            <position>0</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>7119f6cadb8f530032077d8bbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_title</element>
+            <position>1</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>f119f6cadb8f530032077d8bbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contacts</element>
+            <position>2</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>7519f6cadb8f530032077d8bbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>3</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>f519f6cadb8f530032077d8bbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_overview</element>
+            <position>4</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>7919f6cadb8f530032077d8bbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_new_arch_elements</element>
+            <position>5</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>f919f6cadb8f530032077d8bbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_new_technology</element>
+            <position>6</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>7d19f6cadb8f530032077d8bbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_technology_description</element>
+            <position>7</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>fd19f6cadb8f530032077d8bbf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bus_justification</element>
+            <position>8</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>7119f6cadb8f530032077d8bbf96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_existing_alternatives</element>
+            <position>9</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>f119f6cadb8f530032077d8bbf96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_additional_info</element>
+            <position>10</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:09:53</sys_created_on>
+            <sys_id>7519f6cadb8f530032077d8bbf96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_farf2_ent_arch_tgb_request" sys_domain="global" view="Default view">f693851213fe17408e9c7e276144b01b</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:09:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_farf2_ent_arch_tgb_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-06-21 19:59:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>f693851213fe17408e9c7e276144b01b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_farf2_ent_arch_tgb_request</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+            <sys_update_name>sys_ui_section_f693851213fe17408e9c7e276144b01b</sys_update_name>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-06-21 19:59:22</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

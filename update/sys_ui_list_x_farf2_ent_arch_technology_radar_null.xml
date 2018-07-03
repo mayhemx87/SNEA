@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_farf2_ent_arch_technology_radar" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_technology</element>
+            <list_id display_value="x_farf2_ent_arch_technology_radar" element="NULL" name="x_farf2_ent_arch_technology_radar" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9dfa0edb8f530032077d8bbf961978</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:29:33</sys_created_on>
+            <sys_id>469dfa0edb8f530032077d8bbf961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:29:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_version</element>
+            <list_id display_value="x_farf2_ent_arch_technology_radar" element="NULL" name="x_farf2_ent_arch_technology_radar" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9dfa0edb8f530032077d8bbf961978</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:29:33</sys_created_on>
+            <sys_id>c69dfa0edb8f530032077d8bbf961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:29:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_classification</element>
+            <list_id display_value="x_farf2_ent_arch_technology_radar" element="NULL" name="x_farf2_ent_arch_technology_radar" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9dfa0edb8f530032077d8bbf961978</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:29:33</sys_created_on>
+            <sys_id>4a9dfa0edb8f530032077d8bbf961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:29:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_sector</element>
+            <list_id display_value="x_farf2_ent_arch_technology_radar" element="NULL" name="x_farf2_ent_arch_technology_radar" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ce9dfa0edb8f530032077d8bbf961978</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:29:33</sys_created_on>
+            <sys_id>ca9dfa0edb8f530032077d8bbf961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:29:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_farf2_ent_arch_technology_radar</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-03 20:29:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>ce9dfa0edb8f530032077d8bbf961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_farf2_ent_arch_technology_radar</sys_name>
+            <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+            <sys_update_name>sys_ui_list_x_farf2_ent_arch_technology_radar_null</sys_update_name>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-03 20:29:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

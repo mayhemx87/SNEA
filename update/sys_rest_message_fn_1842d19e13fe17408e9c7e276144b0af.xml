@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>[&#13;
+  {&#13;
+    "op": "add",&#13;
+    "path": "/fields/System.Title",&#13;
+    "value": "${u_title}"&#13;
+  }&#13;
+]</content>
+        <function_name>POST to TFS</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>POST to TFS [ POST to TFS ]</qualified_name>
+        <rest_endpoint>${endpoint}</rest_endpoint>
+        <rest_message display_value="POST to TFS">a32255de13fe17408e9c7e276144b010</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-06-21 21:03:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1842d19e13fe17408e9c7e276144b0af</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>POST to TFS</sys_name>
+        <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+        <sys_update_name>sys_rest_message_fn_1842d19e13fe17408e9c7e276144b0af</sys_update_name>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-06-29 22:41:17</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="SNAVPAPPSFDP011_SBX">a7ea5fa413fe934070a035528144b018</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
