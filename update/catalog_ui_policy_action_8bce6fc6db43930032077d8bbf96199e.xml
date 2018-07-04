@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="TGB Request">35fdcf4edbcf530032077d8bbf96195c</catalog_item>
+        <catalog_variable>IO:f93aa742db43930032077d8bbf961921</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-07-04 00:04:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8bce6fc6db43930032077d8bbf96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_technology_description</sys_name>
+        <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8bce6fc6db43930032077d8bbf96199e</sys_update_name>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-07-04 00:04:38</sys_updated_on>
+        <table/>
+        <ui_policy display_value="If Request Type == New Technology show/require appropriate fields">288eebc6db43930032077d8bbf96190f</ui_policy>
+        <variable>u_technology_description</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Application Development">f4b764bd3c32f0007ab311b2e82477b7</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time/>
+        <description><![CDATA[<p>Please enter the information below and click submit to have you request reviewed by the TGB.</p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>TGB Request</name>
+        <no_cart>true</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>true</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=35fdcf4edbcf530032077d8bbf96195c&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description>Technology Governance Board (TGB) Request</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-07-03 21:45:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>35fdcf4edbcf530032077d8bbf96195c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TGB Request</sys_name>
+        <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
+        <sys_update_name>sc_cat_item_producer_35fdcf4edbcf530032077d8bbf96195c</sys_update_name>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-07-03 21:49:14</sys_updated_on>
+        <table_name>x_farf2_ent_arch_tgb_request</table_name>
+        <template/>
+        <type>item</type>
+        <u_allow_edit_after_order>false</u_allow_edit_after_order>
+        <u_requirements/>
+        <u_scm_id/>
+        <u_sme display_value="Robert Kolosky (bkolosky)">98d57dbd0a0a3d2800ff56babf27aad4</u_sme>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=35fdcf4edbcf530032077d8bbf96195c"/>
+    <fx_price action="delete_multiple" query="id=35fdcf4edbcf530032077d8bbf96195c"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>35fdcf4edbcf530032077d8bbf96195c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-07-03 21:45:46</sys_created_on>
+        <sys_id>d60f834edbcf530032077d8bbf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-07-03 21:45:46</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>35fdcf4edbcf530032077d8bbf96195c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bkolosky</sys_created_by>
+        <sys_created_on>2018-07-03 21:45:46</sys_created_on>
+        <sys_id>d20fcb8edbcf530032077d8bbf961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-07-03 21:45:46</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
