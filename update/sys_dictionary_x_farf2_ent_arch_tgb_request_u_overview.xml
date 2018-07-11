@@ -26,6 +26,8 @@
         <element>u_overview</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
         <max_length>1000</max_length>
@@ -48,7 +50,7 @@
         <sys_created_by>bkolosky</sys_created_by>
         <sys_created_on>2018-06-21 20:03:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>b5354d64dbc3d700b9877b1cbf961947</sys_id>
+        <sys_id>2cfa57a8139f5b4070a035528144b067</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Request Overview</sys_name>
         <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
@@ -57,7 +59,7 @@
         <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
         <sys_update_name>sys_dictionary_x_farf2_ent_arch_tgb_request_u_overview</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-06-28 19:52:49</sys_updated_on>
+        <sys_updated_on>2018-07-11 17:02:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

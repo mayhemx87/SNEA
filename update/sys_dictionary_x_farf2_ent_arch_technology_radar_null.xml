@@ -31,6 +31,8 @@
         <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -53,16 +55,16 @@
         <sys_created_by>bkolosky</sys_created_by>
         <sys_created_on>2018-07-03 20:14:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>503a760edb8f530032077d8bbf9619d8</sys_id>
+        <sys_id>6cfa57a8139f5b4070a035528144b085</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_farf2_ent_arch_technology_radar</sys_name>
         <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
-        <sys_update_name>sys_dictionary_x_farf2_ent_arch_technology_radar_null</sys_update_name>
-        <sys_updated_by>bkolosky</sys_updated_by>
-        <sys_updated_on>2018-07-03 20:14:42</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_farf2_ent_arch_technology_radar_NULL</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-11 17:02:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
