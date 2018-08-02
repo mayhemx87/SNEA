@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
-        <name>u_title</name>
+        <name>u_areapath</name>
         <rest_message_function display_value="POST to TFS">1842d19e13fe17408e9c7e276144b0af</rest_message_function>
         <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
         <sys_created_by>bkolosky</sys_created_by>
-        <sys_created_on>2018-06-21 21:05:07</sys_created_on>
+        <sys_created_on>2018-08-02 19:31:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f1a2519e13fe17408e9c7e276144b026</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>u_title</sys_name>
+        <sys_id>76001dfb13eb130070a035528144b079</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_areapath</sys_name>
         <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
-        <sys_update_name>sys_rest_message_fn_parameters_f1a2519e13fe17408e9c7e276144b026</sys_update_name>
+        <sys_update_name>sys_rest_message_fn_parameters_76001dfb13eb130070a035528144b079</sys_update_name>
         <sys_updated_by>bkolosky</sys_updated_by>
-        <sys_updated_on>2018-08-02 18:59:54</sys_updated_on>
+        <sys_updated_on>2018-08-02 19:31:58</sys_updated_on>
         <type>string</type>
-        <value>This is coming from the TGB Request insert functionality in ServiceFirst</value>
+        <value>AT_SolutionArchitecture\\TGB</value>
     </sys_rest_message_fn_parameters>
 </record_update>

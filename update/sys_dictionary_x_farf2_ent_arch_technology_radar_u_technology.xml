@@ -50,7 +50,7 @@
         <sys_created_by>bkolosky</sys_created_by>
         <sys_created_on>2018-07-03 20:28:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>20fa57a8139f5b4070a035528144b08c</sys_id>
+        <sys_id>39bd9cff13e7130070a035528144b063</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Technology</sys_name>
         <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
         <sys_update_name>sys_dictionary_x_farf2_ent_arch_technology_radar_u_technology</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-11 17:02:40</sys_updated_on>
+        <sys_updated_on>2018-08-02 15:51:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

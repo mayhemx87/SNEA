@@ -44,16 +44,29 @@
 		
 		var r = new sn_ws.RESTMessageV2('x_farf2_ent_arch.POST to TFS', 'POST to TFS');
 		var endpoint = gs.getProperty('x_farf2_ent_arch.TFSEndpoint');
+		var tfsAreaPath = gs.getProperty('x_farf2_ent_arch.TFSAreaPath');
 		var tfsToken = ':' + gs.getProperty('x_farf2_ent_arch.TFSToken');
 		var encodedString = '';
+		var fullDescription = '';
 		
 		//gs.info('tfsToken: ' + tfsToken);
-		
 		encodedString = gs.base64Encode(tfsToken);
 		//gs.info('Encoded String: ' + encodedString);
-		
+
+		fullDescription += 'Request Type: ' + current.u_type;
+		fullDescription += '<br/><br/>Request Overview: ' + current.u_overview;
+		fullDescription += '<br/><br/>New Architecture Elements: ' + current.u_new_arch_elements;
+		fullDescription += '<br/><br/>New Technology: ' + current.u_new_technology;
+		fullDescription += '<br/><br/>Technology Description: ' + current.u_technology_description;
+		fullDescription += '<br/><br/>Business Justifcation: ' + current.u_bus_justification;
+		fullDescription += '<br/><br/>Existing Alternatives: ' + current.u_existing_alternatives;
+		fullDescription += '<br/><br/>Additional Information: ' + current.u_additional_info;
+		gs.info(fullDescription);
+
 		r.setStringParameterNoEscape('endpoint', endpoint);
 		r.setStringParameterNoEscape('u_title', current.u_title);
+		r.setStringParameterNoEscape('u_areapath', tfsAreaPath);
+		r.setStringParameterNoEscape('u_description', fullDescription);
 		r.setRequestHeader('Authorization', 'Basic ' + encodedString);
 		
 		var response = r.execute();
@@ -79,7 +92,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>4bc0767c13c3130070a035528144b0ed</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>POST to TFS</sys_name>
         <sys_overrides/>
         <sys_package display_value="Enterprise Architecture" source="x_farf2_ent_arch">f4a205de13be17408e9c7e276144b076</sys_package>
@@ -88,7 +101,7 @@
         <sys_scope display_value="Enterprise Architecture">f4a205de13be17408e9c7e276144b076</sys_scope>
         <sys_update_name>sys_script_4bc0767c13c3130070a035528144b0ed</sys_update_name>
         <sys_updated_by>bkolosky</sys_updated_by>
-        <sys_updated_on>2018-07-03 20:13:29</sys_updated_on>
+        <sys_updated_on>2018-08-02 20:26:47</sys_updated_on>
         <template>u_state=Submitted^EQ</template>
         <when>async</when>
     </sys_script>
